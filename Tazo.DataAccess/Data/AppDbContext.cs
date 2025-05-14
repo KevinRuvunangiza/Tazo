@@ -16,6 +16,7 @@ namespace Tazo.DataAccess.Data
         }      
         public DbSet<Course> Courses => Set<Course>();
         public DbSet<Module> Modules => Set<Module>();
+        public DbSet<Student> Students => Set<Student>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
